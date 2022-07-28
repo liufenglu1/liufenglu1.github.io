@@ -15,13 +15,13 @@ export default navbar([
         prefix: "article/",
         children: [
           { text: "文章 1", icon: "edit", link: "article1" },
-          { text: "文章 2", icon: "edit", link: "article2" },
+          "article2",
           "article3",
           "article4",
         ],
       },
       {
-        text: "文章 5-12",
+        text: "肯德基历史文章 5-12",
         icon: "edit",
         children: [
           {
