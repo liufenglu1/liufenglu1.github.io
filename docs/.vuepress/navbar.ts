@@ -49,4 +49,10 @@ export default navbar([
     icon: "note",
     link: "https://vuepress-theme-hope.github.io/v2/zh/",
   },
+  {
+    text: "文章时间轴",
+    icon: "note",
+    link: "./timeline/",
+  },
+  
 ]);

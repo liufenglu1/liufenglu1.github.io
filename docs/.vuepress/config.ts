@@ -3,8 +3,8 @@ import theme from "./theme";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "主题演示",
-  description: "vuepress-theme-hope 的演示",
+  title: "KFC广告 主题演示",
+  description: "KFC广告 的演示",
 
   base: "/",
 

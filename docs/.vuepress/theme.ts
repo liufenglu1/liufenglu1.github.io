@@ -6,13 +6,13 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "Mr.Chicken GrandFather",
+    url: "http://www.kfc.com.cn/kfccda/index.aspx",
   },
 
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "/2.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -20,7 +20,7 @@ export default hopeTheme({
 
   // navbar
   navbar: navbar,
-
+  navbarIcon: true,
   // sidebar
   sidebar: sidebar,
 
@@ -31,8 +31,11 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    description: "一个前端开发者",
-    intro: "/intro.html",
+    name: "肯德基老爷爷",
+    description: "致力于为kfc免费打工仔",
+    avatar: "https://img2.baidu.com/it/u=2860425531,4113887439&fm=253&fmt=auto&app=138&f=PNG?w=983&h=477",
+    intro: "https://github.com/Alan-pan",
+    timeline: "true",
     medias: {
       Baidu: "https://example.com",
       Bitbucket: "https://example.com",
@@ -71,10 +74,10 @@ export default hopeTheme({
       "/guide/encrypt.html": ["1234"],
     },
   },
-
+  
   plugins: {
     blog: {
-      autoExcerpt: true,
+      autoExcerpt: true
     },
 
     // 如果你不需要评论，可以直接删除 comment 配置，

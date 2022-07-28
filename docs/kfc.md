@@ -4,9 +4,9 @@ icon: home
 title: KFC官网
 heroImage: /1.png
 heroText: KFC官网定制
-tagline: 你可以在这里放置或是整个项目的描述。
+tagline: KFC免费广告
 actions:
-  - text: 直接开吃 💡
+  - text: 到官网上直接开吃 💡
     link: http://www.kfc.com.cn/kfccda/index.aspx
     type: primary
 
