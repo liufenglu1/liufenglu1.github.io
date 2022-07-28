@@ -2,16 +2,16 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/home",
-  { text: "使用指南", icon: "creative", link: "/guide/" },
+  "/kfc",
+  { text: "肯德基开吃指南", icon: "creative", link: "/guide/" },
   {
-    text: "博文",
+    text: "肯德基博文",
     icon: "edit",
-    prefix: "/posts/",
+    prefix: "/kfcposts/",
     children: [
       {
-        text: "文章 1-4",
-        icon: "edit",
+        text: "肯德基历史文章 1-4",
+        icon: "edit" ,
         prefix: "article/",
         children: [
           { text: "文章 1", icon: "edit", link: "article1" },
