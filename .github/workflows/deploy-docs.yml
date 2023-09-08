@@ -38,7 +38,7 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |
-          pnpm install --frozen-lockfile
+          pnpm install --no-frozen-lockfile
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
 
